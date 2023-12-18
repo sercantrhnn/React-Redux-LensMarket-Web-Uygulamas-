@@ -1,0 +1,113 @@
+{
+    "urunler":[
+        {
+            "id": 1,
+            "title":"Acuvue OASYS",
+            "desc":"Saydam Kontakt Lens Bilgisayar karşısında ve klimalı ortamlarda benzersiz üstün konfor sağlayan Oasys kontakt lensleri, Lens yokmuş hissiyle tanışın!",
+            "fiyat":700,
+            "img": "../src/img/oasys-1-o.webp",
+            "tip":"Saydam",
+            "birimAdet": 1
+        },
+        {
+            "id": 2,
+            "title":"Acuvue OASYS 1-Day 30 lu Kutu",
+            "desc":"Günlük Kontakt Lens ACUVUE OASYS 1-Day silikon hidrojel günlük kontakt lensler en yüksek seviyede UV blokajına sahiptir. Acuvue Oasys konforu artık günlük lenslerde.",
+            "fiyat":650,
+            "img": "../src/img/oasys-1day-1-o.webp",
+            "tip":"Günlük",
+            "birimAdet": 1
+        },
+        {
+            "id": 3,
+            "title":"Air Optix Plus HydraGlyde",
+            "desc":"Aylık Lens, Uzun günlerde bile ilk takıştan gün sonuna kadar mükemmel konfor isteyen kişiler için önerilen kontakt lenslerdir.",
+            "fiyat":550,
+            "img": "../src/img/air-optix-hydraglyde-1-o.webp",
+            "tip":"Saydam",
+            "birimAdet": 1
+        },
+        {
+            "id": 4,
+            "title":"Ultra 1 Day",
+            "desc":"Ultra One Day günlük kontakt lensleri ile benzersiz nem ve konfor teknolojileri sayesinde 16 saat boyunca konforu yaşayın",
+            "fiyat":450,
+            "img": "../src/img/ultra-one-day1o.webp",
+            "tip":"Günlük",
+            "birimAdet": 1
+        },
+        {
+            "id": 5,
+            "title":"Precision 1",
+            "desc":"PRECISION 1 ® kontakt lensler, günlük lensler ile yaşam özgürlüğünü hissetmek isteyenler için tasarlanmıştır.",
+            "fiyat":650,
+            "img": "../src/img/precision-1-day-1-o.webp",
+            "tip":"Günlük",
+            "birimAdet": 1
+        },
+        {
+            "id": 6,
+            "title":"Acuvue OASYS Transitions™",
+            "desc":"Türünün ilk örneği, ışığa duyarlı lens. Time'a Göre 2018'in en iyi buluşlarından biri!",
+            "fiyat":600,
+            "img": "../src/img/oasys-1-o.webp",
+            "tip":"Saydam",
+            "birimAdet": 1
+        },
+        {
+            "id": 7,
+            "title":"Air Optix COLORS Numaralı",
+            "desc":"Air Optix Colors dünyanın İLK ve TEK silikon hidrojel renkli lensi. 8 farklı renk seçeneği ile gözlerinize renk katın",
+            "fiyat":500,
+            "img": "../src/img/air-optix-colors-numarali-1-o.webp",
+            "tip":"Renkli",
+            "birimAdet": 1
+        },
+        {
+            "id": 8,
+            "title":"Freshlook Colorblends Renkli Numaralı",
+            "desc":"Kısa süreli(Aylık değişimli) renkli lenstir. 8 Colorblends (Hareli) renk seçeneği vardır.",
+            "fiyat":450,
+            "img": "../src/img/freshlook-colors-renkli-numarali-1-o.webp",
+            "tip":"Renkli",
+            "birimAdet": 1
+        },
+        {
+            "id": 9,
+            "title":"Freshlook Colors Renkli Numaralı",
+            "desc":"Kısa süreli(Aylık değişimli) renkli lenstir. 8 Colorblends (Hareli) renk seçeneği vardır.",
+            "fiyat":480,
+            "img": "../src/img/freshlook-numarali-2-o.webp",
+            "tip":"Renkli",
+            "birimAdet": 1
+        },
+        {
+            "id": 10,
+            "title":"Johnson Acuvue RevitaLens Solüsyon",
+            "desc":"Acuvue RevitaLens Solüsyonu size Mükemmel dezenfeksiyon ve gün boyu süren konfor sağlar.",
+            "fiyat":160,
+            "img": "../src/img/acuvue-revitalens-1-o.webp",
+            "tip":"Solüsyon",
+            "birimAdet": 1
+        },
+        {
+            "id": 11,
+            "title":"ALL IN ONE LIGHT ",
+            "desc":"Antibakteriyel lens kabı ile birlikte daha güvenli ve hijyenik. Silikon Hidrojel dahil tüm yumuşak kontakt lensler ile kullanılabilir.",
+            "fiyat":120,
+            "img": "../src/img/all-in-one-360-1-o.webp",
+            "tip":"Solüsyon",
+            "birimAdet": 1
+        },
+        {
+            "id": 12,
+            "title":"RENU ADVANCED ",
+            "desc":"Üçlü dezenfeksiyon sistemine sahip yeni Renu Advanced Solüsyon",
+            "fiyat":170,
+            "img": "../src/img/renu-advanced-360ml1o.webp",
+            "tip":"Solüsyon",
+            "birimAdet": 1
+        }
+    
+    ]
+}
