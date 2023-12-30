@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import {
   Card,
   CardActions,
@@ -7,13 +7,26 @@ import {
   Typography,
   Button,
   Stack,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { useDispatch } from "react-redux";
 import { addCart } from "../control/sepetSlice";
 
 function RenkliLens({ veri }) {
+  const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
+  const handleAddToCart = (veri) => {
+    dispatch(addCart(veri));
+    setOpen(true);
+  };
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+    setOpen(false);
+  };
   return (
     <>
       {
@@ -62,12 +75,21 @@ function RenkliLens({ veri }) {
                         {veri.fiyat} TL
                       </Typography>
                       <Stack sx={{ marginLeft: "150px" }}>
-                        <Button onClick={() => dispatch(addCart(veri))}>
+                        <Button onClick={() => handleAddToCart(veri)}>
                           <AddShoppingCartIcon sx={{ color: "#F2762A" }} />
                         </Button>
                       </Stack>
                     </CardActions>
                   </Card>
+                  <Snackbar
+                  open={open}
+                  onClose={handleClose}
+                  autoHideDuration={3000}
+                >
+                  <Alert severity="success" sx={{ width: "100%" }}>
+                    Ürün Sepete Eklendi
+                  </Alert>
+                </Snackbar>
                 </div>
               );
             }
