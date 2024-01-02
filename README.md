@@ -5,6 +5,8 @@ Lens market isimli ufak bir e-ticaret sitesi geliştirildi. React kullanılarak 
 
 Sepet yapısı redux toolkit kullanılarak geliştirildi. Sepete ürün ekleme, ürün çıkarma, ürün sayısını azaltma-artırma işlemleri gerçekleşmektedir.
 
+Ödeme sayfasına kullanıcı etkileşimli kredi kart form eklendi.
+
 Projeyi geliştirmeye devam ediyorum.
 
 [Projenin Tanıtım Videosu](https://youtu.be/H8KYYO5lBkA)
